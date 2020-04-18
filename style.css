@@ -1,0 +1,129 @@
+/*
+Theme Name: Apple WP
+Theme URI: appletheme.com
+Author: Tin Do
+Author URI: http://wordpress.org/
+Description: Apple theme for Wordpress
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, brown, orange, tan, white, yellow, light, one-column, two-columns, right-sidebar, flexible-width, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready
+Text Domain: apple wp
+
+
+*/
+* {
+  color:white;
+}
+body {
+    font-family: 'Baloo Paaji 2', cursive;
+    background-color: black;
+    
+}
+
+a{
+  color:white;
+}
+a:hover{
+  color:rgba(244, 207, 250,0.9);
+}
+.header_img {
+  min-height: 25vh;
+}
+img {max-width: 100%;
+ max-height: 100%;}
+
+.navbar {
+  padding:0.8rem;
+}
+
+.nav-link {
+  font-size:1.1em !important;
+  color:white !important;
+}
+
+.nav-link:hover {
+  background-color: rgba(244, 207, 250,0.9);
+}
+.navbar-nav li {
+  padding-right: 20px;;
+  
+}
+
+
+.feature-text {
+    font-size:5rem;
+    line-height:5rem;
+    color:whitesmoke;
+    text-shadow: 1px 1px 2px black; 
+
+    
+}
+.header_img {
+    min-height: 25vh;
+    
+}
+.header_img:hover {
+    background-color: red;
+    opacity: 0.9;
+    }
+
+
+
+ hr {
+      border: 1px solid white;
+      
+      width:50%;
+    }
+
+.welcome {
+  padding-top: 2rem;
+  
+
+}
+
+.icons i {
+  font-size: 3em;
+}
+
+.fa-linkedin {
+  color:#0077B5;
+  margin-right: 10px;
+}
+
+
+#hi {
+  padding-top: 1em;
+}
+
+.blog-section {
+  margin-top: 5em;
+}
+
+
+
+.widget-area > div > ul {
+  list-style: none;
+  padding: 0em;
+  
+}
+
+@media screen and (max-width:768px) {
+  footer .btn-primary {
+    margin-top: 1em;
+  }
+  .feature-text {
+    font-size:2rem;
+    line-height:4rem;
+    color:whitesmoke;
+    
+}
+}
+
+.fa-sad-cry {
+  color:white;
+ font-size: 5em;
+ margin-left: 4em;
+
+}
+
